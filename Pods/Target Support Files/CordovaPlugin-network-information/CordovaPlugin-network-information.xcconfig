@@ -1,0 +1,1 @@
+CORDOVAPLUGIN_NETWORK_INFORMATION_OTHER_LDFLAGS = -framework "SystemConfiguration"

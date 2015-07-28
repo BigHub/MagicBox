@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5A181291B65452600003D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A181281B65452600003D8D /* AppDelegate.swift */; };
-		E5A1812B1B65452600003D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1812A1B65452600003D8D /* ViewController.swift */; };
-		E5A1812E1B65452600003D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A1812C1B65452600003D8D /* Main.storyboard */; };
-		E5A181301B65452600003D8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A1812F1B65452600003D8D /* Images.xcassets */; };
-		E5A181331B65452600003D8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A181311B65452600003D8D /* LaunchScreen.xib */; };
+		540E27EB95CA6CB988F7EF07 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA63CE495945598C8F18161 /* libPods.a */; };
+		E55AA32E1B67CFC700C02B08 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AA32D1B67CFC700C02B08 /* MainViewController.swift */; };
+		E55AA3301B67D14C00C02B08 /* BoxPlaza.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55AA32F1B67D14C00C02B08 /* BoxPlaza.storyboard */; };
+		E55AA3321B67D15F00C02B08 /* BoxInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55AA3311B67D15F00C02B08 /* BoxInfo.storyboard */; };
+		E55AA3341B67D17000C02B08 /* MyBox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55AA3331B67D17000C02B08 /* MyBox.storyboard */; };
+		E55AA3361B67DA7A00C02B08 /* BoxPlazaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AA3351B67DA7A00C02B08 /* BoxPlazaViewController.swift */; };
+		E55AA3381B67DA8900C02B08 /* BoxInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AA3371B67DA8900C02B08 /* BoxInfoViewController.swift */; };
+		E55AA33A1B67DA9B00C02B08 /* MyBoxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AA3391B67DA9B00C02B08 /* MyBoxTableViewController.swift */; };
 		E5A1813F1B65452700003D8D /* MagicBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1813E1B65452700003D8D /* MagicBoxTests.swift */; };
+		E5A772841B668625000328DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A772741B668625000328DD /* AppDelegate.swift */; };
+		E5A772851B668625000328DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A772761B668625000328DD /* LaunchScreen.xib */; };
+		E5A772861B668625000328DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A772781B668625000328DD /* Main.storyboard */; };
+		E5A772871B668625000328DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A7727E1B668625000328DD /* Images.xcassets */; };
+		E5A772881B668625000328DD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5A7727F1B668625000328DD /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B22FC68362D4EB960B7F698 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6079D88BA9AF19ADBCC19EA6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CDA63CE495945598C8F18161 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55AA32D1B67CFC700C02B08 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E55AA32F1B67D14C00C02B08 /* BoxPlaza.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BoxPlaza.storyboard; sourceTree = "<group>"; };
+		E55AA3311B67D15F00C02B08 /* BoxInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BoxInfo.storyboard; sourceTree = "<group>"; };
+		E55AA3331B67D17000C02B08 /* MyBox.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyBox.storyboard; sourceTree = "<group>"; };
+		E55AA3351B67DA7A00C02B08 /* BoxPlazaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxPlazaViewController.swift; sourceTree = "<group>"; };
+		E55AA3371B67DA8900C02B08 /* BoxInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxInfoViewController.swift; sourceTree = "<group>"; };
+		E55AA3391B67DA9B00C02B08 /* MyBoxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBoxTableViewController.swift; sourceTree = "<group>"; };
 		E5A181231B65452600003D8D /* MagicBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5A181271B65452600003D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5A181281B65452600003D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5A1812A1B65452600003D8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5A1812D1B65452600003D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E5A1812F1B65452600003D8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E5A181321B65452600003D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E5A181381B65452700003D8D /* MagicBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A1813D1B65452700003D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A1813E1B65452700003D8D /* MagicBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxTests.swift; sourceTree = "<group>"; };
+		E5A772731B668624000328DD /* MagicBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		E5A772741B668625000328DD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5A772771B668625000328DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E5A772791B668625000328DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		E5A7727E1B668625000328DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5A7727F1B668625000328DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				540E27EB95CA6CB988F7EF07 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +75,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87C0D7887061D5750DE2A37B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA63CE495945598C8F18161 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E55AA32C1B67CE1F00C02B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A772731B668624000328DD /* MagicBox-Bridging-Header.h */,
+				E5A7727F1B668625000328DD /* Info.plist */,
+				E5A7727E1B668625000328DD /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E5A1811A1B65452600003D8D = {
 			isa = PBXGroup;
 			children = (
 				E5A181251B65452600003D8D /* MagicBox */,
 				E5A1813B1B65452700003D8D /* MagicBoxTests */,
 				E5A181241B65452600003D8D /* Products */,
+				F93D15E4C24AC176C950A814 /* Pods */,
+				87C0D7887061D5750DE2A37B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,22 +116,18 @@
 		E5A181251B65452600003D8D /* MagicBox */ = {
 			isa = PBXGroup;
 			children = (
-				E5A181281B65452600003D8D /* AppDelegate.swift */,
-				E5A1812A1B65452600003D8D /* ViewController.swift */,
-				E5A1812C1B65452600003D8D /* Main.storyboard */,
-				E5A1812F1B65452600003D8D /* Images.xcassets */,
-				E5A181311B65452600003D8D /* LaunchScreen.xib */,
-				E5A181261B65452600003D8D /* Supporting Files */,
+				E5A772741B668625000328DD /* AppDelegate.swift */,
+				E55AA32C1B67CE1F00C02B08 /* Supporting Files */,
+				E5A772751B668625000328DD /* Base.lproj */,
+				E5A7727A1B668625000328DD /* Common */,
+				E5A7727B1B668625000328DD /* Controllers */,
+				E5A7727C1B668625000328DD /* Cordova */,
+				E5A7727D1B668625000328DD /* Icon */,
+				E5A772801B668625000328DD /* Models */,
+				E5A772811B668625000328DD /* Settings */,
+				E5A772831B668625000328DD /* Views */,
 			);
 			path = MagicBox;
-			sourceTree = "<group>";
-		};
-		E5A181261B65452600003D8D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E5A181271B65452600003D8D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E5A1813B1B65452700003D8D /* MagicBoxTests */ = {
@@ -112,6 +147,80 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E5A772751B668625000328DD /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E5A772761B668625000328DD /* LaunchScreen.xib */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		E5A7727A1B668625000328DD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E5A7727B1B668625000328DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E55AA32D1B67CFC700C02B08 /* MainViewController.swift */,
+				E55AA3351B67DA7A00C02B08 /* BoxPlazaViewController.swift */,
+				E55AA3371B67DA8900C02B08 /* BoxInfoViewController.swift */,
+				E55AA3391B67DA9B00C02B08 /* MyBoxTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E5A7727C1B668625000328DD /* Cordova */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cordova;
+			sourceTree = "<group>";
+		};
+		E5A7727D1B668625000328DD /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		E5A772801B668625000328DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5A772811B668625000328DD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E5A772831B668625000328DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5A772781B668625000328DD /* Main.storyboard */,
+				E55AA32F1B67D14C00C02B08 /* BoxPlaza.storyboard */,
+				E55AA3311B67D15F00C02B08 /* BoxInfo.storyboard */,
+				E55AA3331B67D17000C02B08 /* MyBox.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F93D15E4C24AC176C950A814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B22FC68362D4EB960B7F698 /* Pods.debug.xcconfig */,
+				6079D88BA9AF19ADBCC19EA6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5A181421B65452700003D8D /* Build configuration list for PBXNativeTarget "MagicBox" */;
 			buildPhases = (
+				DC46E9834267669FCDFDDFE7 /* Check Pods Manifest.lock */,
 				E5A1811F1B65452600003D8D /* Sources */,
 				E5A181201B65452600003D8D /* Frameworks */,
 				E5A181211B65452600003D8D /* Resources */,
+				46A077B3FE138A10B9C34B64 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +303,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A1812E1B65452600003D8D /* Main.storyboard in Resources */,
-				E5A181331B65452600003D8D /* LaunchScreen.xib in Resources */,
-				E5A181301B65452600003D8D /* Images.xcassets in Resources */,
+				E5A772881B668625000328DD /* Info.plist in Resources */,
+				E5A772871B668625000328DD /* Images.xcassets in Resources */,
+				E55AA3321B67D15F00C02B08 /* BoxInfo.storyboard in Resources */,
+				E55AA3301B67D14C00C02B08 /* BoxPlaza.storyboard in Resources */,
+				E5A772851B668625000328DD /* LaunchScreen.xib in Resources */,
+				E5A772861B668625000328DD /* Main.storyboard in Resources */,
+				E55AA3341B67D17000C02B08 /* MyBox.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +322,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46A077B3FE138A10B9C34B64 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC46E9834267669FCDFDDFE7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5A1811F1B65452600003D8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A1812B1B65452600003D8D /* ViewController.swift in Sources */,
-				E5A181291B65452600003D8D /* AppDelegate.swift in Sources */,
+				E5A772841B668625000328DD /* AppDelegate.swift in Sources */,
+				E55AA33A1B67DA9B00C02B08 /* MyBoxTableViewController.swift in Sources */,
+				E55AA32E1B67CFC700C02B08 /* MainViewController.swift in Sources */,
+				E55AA3381B67DA8900C02B08 /* BoxInfoViewController.swift in Sources */,
+				E55AA3361B67DA7A00C02B08 /* BoxPlazaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +387,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5A1812C1B65452600003D8D /* Main.storyboard */ = {
+		E5A772761B668625000328DD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5A1812D1B65452600003D8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E5A181311B65452600003D8D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5A181321B65452600003D8D /* Base */,
+				E5A772771B668625000328DD /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E5A772781B668625000328DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A772791B668625000328DD /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -338,21 +490,28 @@
 		};
 		E5A181431B65452700003D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B22FC68362D4EB960B7F698 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MagicBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicBox/MagicBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E5A181441B65452700003D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6079D88BA9AF19ADBCC19EA6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MagicBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicBox/MagicBox-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +568,7 @@
 				E5A181441B65452700003D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5A181451B65452700003D8D /* Build configuration list for PBXNativeTarget "MagicBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +577,7 @@
 				E5A181471B65452700003D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
