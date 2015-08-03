@@ -21,6 +21,10 @@
 		E5A772861B668625000328DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A772781B668625000328DD /* Main.storyboard */; };
 		E5A772871B668625000328DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A7727E1B668625000328DD /* Images.xcassets */; };
 		E5A772881B668625000328DD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5A7727F1B668625000328DD /* Info.plist */; };
+		E5ED05981B6FA9750078AF5E /* Configure.geojson in Resources */ = {isa = PBXBuildFile; fileRef = E5ED05971B6FA9750078AF5E /* Configure.geojson */; };
+		E5ED059C1B6FAD3D0078AF5E /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED059B1B6FAD3D0078AF5E /* ConfigManager.swift */; };
+		E5ED05A41B6FBA740078AF5E /* BoxAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED05A31B6FBA740078AF5E /* BoxAppModel.swift */; };
+		E5ED05A81B6FCE250078AF5E /* BoxPlazaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED05A71B6FCE250078AF5E /* BoxPlazaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		E5A772791B668625000328DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		E5A7727E1B668625000328DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5A7727F1B668625000328DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5ED05971B6FA9750078AF5E /* Configure.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configure.geojson; sourceTree = "<group>"; };
+		E5ED059B1B6FAD3D0078AF5E /* ConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		E5ED05A31B6FBA740078AF5E /* BoxAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxAppModel.swift; sourceTree = "<group>"; };
+		E5ED05A71B6FCE250078AF5E /* BoxPlazaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxPlazaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +198,7 @@
 		E5A772801B668625000328DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E5ED05A31B6FBA740078AF5E /* BoxAppModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -197,6 +206,8 @@
 		E5A772811B668625000328DD /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				E5ED05971B6FA9750078AF5E /* Configure.geojson */,
+				E5ED059B1B6FAD3D0078AF5E /* ConfigManager.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -208,6 +219,7 @@
 				E55AA32F1B67D14C00C02B08 /* BoxPlaza.storyboard */,
 				E55AA3311B67D15F00C02B08 /* BoxInfo.storyboard */,
 				E55AA3331B67D17000C02B08 /* MyBox.storyboard */,
+				E5ED05A71B6FCE250078AF5E /* BoxPlazaCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +321,7 @@
 				E55AA3301B67D14C00C02B08 /* BoxPlaza.storyboard in Resources */,
 				E5A772851B668625000328DD /* LaunchScreen.xib in Resources */,
 				E5A772861B668625000328DD /* Main.storyboard in Resources */,
+				E5ED05981B6FA9750078AF5E /* Configure.geojson in Resources */,
 				E55AA3341B67D17000C02B08 /* MyBox.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,9 +375,12 @@
 			files = (
 				E5A772841B668625000328DD /* AppDelegate.swift in Sources */,
 				E55AA33A1B67DA9B00C02B08 /* MyBoxTableViewController.swift in Sources */,
+				E5ED05A41B6FBA740078AF5E /* BoxAppModel.swift in Sources */,
 				E55AA32E1B67CFC700C02B08 /* MainViewController.swift in Sources */,
 				E55AA3381B67DA8900C02B08 /* BoxInfoViewController.swift in Sources */,
 				E55AA3361B67DA7A00C02B08 /* BoxPlazaViewController.swift in Sources */,
+				E5ED05A81B6FCE250078AF5E /* BoxPlazaCollectionViewCell.swift in Sources */,
+				E5ED059C1B6FAD3D0078AF5E /* ConfigManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

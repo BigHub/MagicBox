@@ -26,6 +26,10 @@ class MainViewController: UITabBarController {
     }
     
     func loadAllViewController(){
+        //设置选中图片的颜色
+        self.tabBar.selectedImageTintColor = UIColor.redColor()
+        //FIXME 设置tabBarItem的字体颜色(此设置无效 why?)
+        self.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.whiteColor()], forState: UIControlState.Normal)
         
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
         
